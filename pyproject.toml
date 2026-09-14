@@ -1,10 +1,11 @@
 [project]
 name = "bitcoin-prediction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Dự đoán xu hướng giá Bitcoin bằng BiLSTM kết hợp sentiment analysis từ Twitter"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "numpy>=2.5.1",
     "pandas>=3.0.3",
+    "scikit-learn>=1.7.0",
 ]

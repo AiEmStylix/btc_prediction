@@ -1,4 +1,4 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
@@ -8,4 +8,21 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Data files (quá nặng, ko nên push lên git)
 dataset/
+*.csv
+*.parquet
+
+# Output / results
+*.png
+*.h5
+*.keras
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.env
+.DS_Store
